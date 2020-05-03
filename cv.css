@@ -8,7 +8,7 @@ body {
     margin: auto;
 }
 
-.img_h3, strong, .round, #liseret h4 {
+.img_h3, strong, .round, .round_now, #liseret h4 {
     color: #edb83d;
 }
 
@@ -69,7 +69,7 @@ h1, h2 {
     background-color: #edb83d;
     display: flex;
     flex-direction: column;
-    width: 550px;
+    width: 350px;
 }
 
 #liseret h4 {
@@ -120,14 +120,19 @@ h1, h2 {
     margin-top: 5px;
 }
 
-.round {
+.round, .round_now {
     font-size: 10px;
     padding-top: 15px;
     margin-right: 8px;
     margin-left: 15px;
 }
 
-.round, .lieu {
+.round_now {
+    font-size: 15px;
+    padding-top: 10px;
+}
+
+.round, .round_now, .lieu {
     margin-top: 35px;
 }
 
@@ -209,7 +214,7 @@ h5 {
     margin-top: 15px;
 }
 
-.round {
+.round, .round_now {
     display: none;
 }
 
