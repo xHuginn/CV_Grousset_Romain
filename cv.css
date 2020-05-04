@@ -103,6 +103,9 @@ h1, h2 {
 #img_loisir {
     text-align: center;
 }
+
+
+
 /* PRINCIPAL */
 
 
@@ -239,7 +242,6 @@ h5 {
     
     body {
         flex-direction: column;
-        
     }
     
     p {
